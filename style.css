@@ -1,7 +1,12 @@
+*{
+    margin: 0%;
+}
+
 html{
     height: 100%;
     width: 100%;
 }
+
 body{
     background-color: #242424;
     display: flex;
@@ -12,23 +17,69 @@ body{
 }
 main{
     display: flex;
-    align-items: center;
-    justify-content: center;
+
     background-color: #807171;
     width: 75%;
     height:75%;
     border-radius: 15px;
     box-shadow: 9px 9px 4px 3px #8071711a ;
+    
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
 }
 
 section{
     display: flex;
     position: relative;
-    left: 15%;
+
+    color: #807171;;
     background-color: #242424;
     width: 65%;
     height: 65%;
     border-radius: 15px;
     box-shadow: 9px 9px 4px 3px #242424c5 ;
+
+    align-items: top;
+    justify-content: left;
 }
 
+article{
+    display: flex;
+    position: relative;
+
+    width: 30%;
+    height: 65%;
+    box-shadow: 9px 9px 4px 3px #242424c5;
+    background: rgba(255, 255, 255, 0.49);
+    border-radius: 15px;
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(8.1px);
+    border: 1px solid rgba(255, 255, 255, 0.19);
+}
+
+article img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+section h1{
+    position: absolute;
+    display: flex;
+    top: 1%;
+    left: 45%;
+}
+
+section h2{
+    position:absolute;
+    display: flex;
+    top: 25%;
+    left:10%;
+}
+section p.info{
+    position:absolute;
+    display: flex;
+    top: 35%;
+    left:10%;
+}
